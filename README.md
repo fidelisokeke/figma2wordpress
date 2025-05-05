@@ -15,6 +15,7 @@ A custom WordPress theme built for showcasing my portfolio projects.
 
 ## Screenshots
 <img width="959" alt="Image" src="https://github.com/user-attachments/assets/4b4f6e73-237f-4682-b40f-9973c360072a" />
-
+![Screenshot](screenshot.png)
+![Screenshot](screen2.png)
 ## License
 MIT

@@ -1,0 +1,31 @@
+# Ignore WordPress core files if you're versioning only themes/plugins
+wp-admin/
+wp-includes/
+readme.html
+license.txt
+xmlrpc.php
+wp-config.php
+.htaccess
+
+# Ignore uploads (optional, especially if large)
+wp-content/uploads/
+
+# Ignore cache and logs
+*.log
+cache/
+tmp/
+*.sql
+*.tar.gz
+*.zip
+
+# OS/IDE/files
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+.vscode/
+.idea/
+
+# Node/Composer
+node_modules/
+vendor/

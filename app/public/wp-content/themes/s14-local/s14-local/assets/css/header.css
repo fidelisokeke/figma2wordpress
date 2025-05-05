@@ -1,0 +1,239 @@
+@font-face {
+    font-family: 'Brown Pro';
+    src: url('../fonts/lineto-brown-pro-regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brown Pro';
+    src: url('../fonts/lineto-brown-pro-light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brown Pro';
+    src: url('../fonts/lineto-brown-pro-bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.menu {
+    list-style: none;
+    
+    margin: 0;
+    padding: 0;
+    display: flex;
+   
+    gap: 20px;
+    
+}
+
+/* Nav links */
+.menu li a {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.035em;
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/*  CTA buttons */
+.menu li.btn.become-member a {
+    background: #EF6D1D;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.menu li.btn.donate a {
+    background: #123234;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.menu li a:hover {
+    opacity: 0.85;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.site-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.site-content {
+    flex: 1;
+}
+
+.site-content {
+    flex: 1;
+}
+
+body {
+    font-family: 'Brown Pro', sans-serif;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    width: min(90%, 1200px);
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Base reset for top-bar menu */
+.top-links {
+    list-style: none;
+    /* no bullets */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+
+.top-links a {
+    font-weight: normal;
+    text-transform: none;
+    color: #000;
+    text-decoration: underline;
+    padding: 0;
+    
+}
+
+
+.top-links li+li::before {
+    content: "|";
+    margin: 0 12px;
+    
+    color: #999;
+}
+
+
+.top-links a:hover {
+    color: #EF6D1D;
+}
+
+.top-links .fa-search {
+    margin-right: 6px;
+    vertical-align: middle;
+    font-size: 0.9em;
+}
+
+
+
+/*
+      Header & Navigation
+     */
+/* Header wrapper */
+.navigation {
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+/* Top bar */
+.top-bar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.top-bar .top-links {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.top-bar .top-links a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.top-bar .top-links .divider {
+    color: #999;
+}
+
+/* Main nav */
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    flex-wrap: wrap;
+}
+
+.logo img {
+    max-height: 60px;
+    width: auto;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.menu a {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.035em;
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #EF6D1D;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+
+.become-member {
+    background-color: #EF6D1D;
+}
+
+.donate {
+    background-color: #123234;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
